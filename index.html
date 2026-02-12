@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyaminyami LULC Dashboard</title>
+  <script type="module" crossorigin src="./assets/index-BjIgO1wS.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CVadbR8C.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Nyaminyami District: LULC Change (2020-2025)</h1>
+    </header>
+
+    <div id="map"></div>
+
+    <div class="legend" id="map-legend">
+        <strong>LULC Categories</strong>
+        <div class="legend-item"><div class="color-box" style="background: #1359de;"></div> Water</div>
+        <div class="legend-item"><div class="color-box" style="background: #234e23;"></div> Open Woodland</div>
+        <div class="legend-item"><div class="color-box" style="background: #e19a6e;"></div> Closed Woodland</div>
+        <div class="legend-item"><div class="color-box" style="background: #23ff7b;"></div> Riparian/Wetland</div>
+        <div class="legend-item"><div class="color-box" style="background: #bfbfbf;"></div> Human-Modified Land</div>
+    </div>
+
+    <div class="slider-container">
+        <input id="swipe" type="range" min="0" max="100" value="100" />
+    </div>
+
+</body>
+</html>
